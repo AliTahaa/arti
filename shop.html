@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <title>Arti Store</title>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#"><i class="fa-solid fa-palette fa-2xl"></i><span>Arti Store</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./shop.html">Shop</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-lg-5 mb-2 mb-lg-0 login">
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cart</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <div class="row">
+      <!-- Sidebar Filters -->
+      <div class="col-md-3">
+        <div class="bg-light p-4 rounded mb-4">
+          <h4>Filters</h4>
+          <form>
+            <div class="mb-3">
+              <label for="categorySelect" class="form-label">Category</label>
+              <select class="form-select" id="categorySelect">
+                <option value="" selected>All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="clothing">Clothing</option>
+                <option value="home">Home & Kitchen</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="priceRange" class="form-label">Price Range</label>
+              <input type="range" class="form-range" id="priceRange" min="0" max="500" step="10" value="250">
+              <small id="priceRangeLabel" class="form-text">Up to $500</small>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Apply Filters</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="col-md-9">
+        <div class="row">
+          <!-- Product Card 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./Images/product-1.webp" class="card-img-top" alt="Product 1">
+              <div class="card-body">
+                <h5 class="card-title">Product 1</h5>
+                <p class="card-text">Description of the product goes here.</p>
+                <p class="card-text"><strong>$29.99</strong></p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./Images/product-2.webp" class="card-img-top" alt="Product 2">
+              <div class="card-body">
+                <h5 class="card-title">Product 2</h5>
+                <p class="card-text">Description of the product goes here.</p>
+                <p class="card-text"><strong>$39.99</strong></p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./Images/product-3.webp" class="card-img-top" alt="Product 3">
+              <div class="card-body">
+                <h5 class="card-title">Product 3</h5>
+                <p class="card-text">Description of the product goes here.</p>
+                <p class="card-text"><strong>$49.99</strong></p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./Images/product-1.webp" class="card-img-top" alt="Product 1">
+              <div class="card-body">
+                <h5 class="card-title">Product 1</h5>
+                <p class="card-text">Description of the product goes here.</p>
+                <p class="card-text"><strong>$29.99</strong></p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./Images/product-2.webp" class="card-img-top" alt="Product 2">
+              <div class="card-body">
+                <h5 class="card-title">Product 2</h5>
+                <p class="card-text">Description of the product goes here.</p>
+                <p class="card-text"><strong>$39.99</strong></p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./Images/product-3.webp" class="card-img-top" alt="Product 3">
+              <div class="card-body">
+                <h5 class="card-title">Product 3</h5>
+                <p class="card-text">Description of the product goes here.</p>
+                <p class="card-text"><strong>$49.99</strong></p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./Images/product-1.webp" class="card-img-top" alt="Product 1">
+              <div class="card-body">
+                <h5 class="card-title">Product 1</h5>
+                <p class="card-text">Description of the product goes here.</p>
+                <p class="card-text"><strong>$29.99</strong></p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./Images/product-2.webp" class="card-img-top" alt="Product 2">
+              <div class="card-body">
+                <h5 class="card-title">Product 2</h5>
+                <p class="card-text">Description of the product goes here.</p>
+                <p class="card-text"><strong>$39.99</strong></p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./Images/product-3.webp" class="card-img-top" alt="Product 3">
+              <div class="card-body">
+                <h5 class="card-title">Product 3</h5>
+                <p class="card-text">Description of the product goes here.</p>
+                <p class="card-text"><strong>$49.99</strong></p>
+                <a href="#" class="btn btn-primary">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional products can be added here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- footer using gpt-->
+
+  <footer id="footer" class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <h3>Arti Store</h3>
+          <p>your one-stop destination for discovering and purchasing unique, high-quality artwork. From classic
+            paintings to contemporary digital art, we offer a diverse collection to suit every taste and style.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex flex-column align-content-center flex-wrap">
+          <h3>Quick Links</h3>
+          <ul class="ps-3">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-content-center flex-wrap">
+          <h3>Follow Us</h3>
+          <ul class="social-media-icons mt-4">
+            <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center mt-4">
+          <p>&copy; 2024 Arti Store. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- footer using gpt-->
+
+
+
+
+
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/all.min.js"></script>
+</body>
+
+</html>
